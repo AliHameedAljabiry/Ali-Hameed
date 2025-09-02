@@ -4,10 +4,10 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 // SVGs as file imports
-import githubIcon from "@/public/images/github.svg";
-import gmailIcon from "@/public/images/gmail.svg";
-import whatsappIcon from "@/public/images/whatsapp.svg";
-import linkedinIcon from "@/public/images/linkedin.svg";
+import githubIcon from "/public/images/github.svg";
+import gmailIcon from "/public/images/gmail.svg";
+import whatsappIcon from "/public/images/whatsapp.svg";
+import linkedinIcon from "/public/images/linkedin.svg";
 import Image from 'next/image';
 
 export default function Contact() {
