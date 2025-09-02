@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "npm install --legacy-peer-deps",
+    "vercel-build": "npm install --legacy-peer-deps && next build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -76,6 +76,12 @@
   },
   "overrides": {
     "embla-carousel-react": {
+      "peerDependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+      }
+    },
+    "input-otp": {
       "peerDependencies": {
         "react": "^19.0.0",
         "react-dom": "^19.0.0"
