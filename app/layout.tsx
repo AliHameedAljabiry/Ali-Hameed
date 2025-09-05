@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Ali Hameed',
   description: 'Ali Hameed',
+  icons: {
+    icon: "/images/icon.svg", 
+    
+  },
 };
 
 export default function RootLayout({

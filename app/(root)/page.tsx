@@ -87,7 +87,7 @@ export default function Home() {
 
             <motion.a
               href="/Ali-Hameed-CV.pdf"
-              download="Ali-Hameed-CV.pdf"
+              download="/Ali-Hameed-CV.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 font-semibold rounded-full transition-all duration-300 flex items-center space-x-2"

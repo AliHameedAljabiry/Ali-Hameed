@@ -1,7 +1,9 @@
 'use client'
 
+import { Avatar } from '@radix-ui/react-avatar';
 import { motion } from 'framer-motion';
 import { Code, Palette, Zap, Users, Award, BookOpen } from 'lucide-react';
+import Image from 'next/image';
 
 export default function About() {
   const skills = [
@@ -17,23 +19,19 @@ export default function About() {
 
   const experiences = [
     {
-      role: 'Senior Frontend Developer',
-      company: 'TechCorp Inc.',
-      period: '2022 - Present',
-      description: 'Leading frontend development for enterprise applications, mentoring junior developers, and implementing cutting-edge technologies.'
+      role: 'Front-End Developer (Project Work)',
+      company: 'Self-directed',
+      period: '2023 – Present',
+      description: `
+        • Built multiple responsive applications using React.js and Next.js.
+        • Developed full-stack web applications with Next.js API routes, Neon PostgreSQL, and Drizzle ORM.
+        • Integrated Firebase for authentication and real-time features.
+        • Implemented ImageKit for file/image handling.
+        • Designed modern, mobile-first UIs with Tailwind CSS and shadcn/ui.
+        • Deployed projects on Vercel with CI/CD integration.
+      `,
     },
-    {
-      role: 'Frontend Developer',
-      company: 'Creative Agency',
-      period: '2020 - 2022',
-      description: 'Developed responsive websites and web applications for various clients, focusing on performance and user experience.'
-    },
-    {
-      role: 'Junior Developer',
-      company: 'StartupX',
-      period: '2019 - 2020',
-      description: 'Built and maintained React applications, collaborated with design team to implement pixel-perfect interfaces.'
-    }
+    
   ];
 
   const values = [
@@ -72,11 +70,18 @@ export default function About() {
             className="lg:col-span-1"
           >
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
-              <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-                <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center">
-                  <Code className="w-12 h-12 text-white" />
+              <div className="w-[200px] h-[200px] bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <div className="w-[180px] h-[180px] bg-white/20 rounded-full flex items-center justify-center overflow-hidden">
+                  <Image 
+                    src="/images/ali.png" 
+                    alt="my-photo"  
+                    width={150} 
+                    height={150} 
+                    className="rounded-full object-cover w-full h-full" 
+                  />
                 </div>
               </div>
+
               
               <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 text-center mb-2">
                 Ali Hameed
