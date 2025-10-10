@@ -17,7 +17,7 @@ export default function Projects() {
       tags: ['React', 'Next.js', 'TypeScript', 'PostgreSQL'],
       category: 'Full Stack',
       github: 'https://github.com/AliHameedAljabiry/NextWizard',
-      demo: 'https://next-wizard.vercel.app'
+      demo: 'https://nextwizard.alihameeddev.xyz'
     },
     {
       id: 2,
@@ -27,17 +27,17 @@ export default function Projects() {
       tags: ['React', 'Next.js', 'Typescript', 'PostgreSQL'],
       category: 'Full Stack',
       github: 'https://github.com/AliHameedAljabiry/university-library',
-      demo: 'https://university-library-blue.vercel.app/'
+      demo: 'https://nerdslibrary.alihameeddev.xyz'
     },
     {
       id: 3,
-      title: 'Startups',
-      description: ' A landing page for a fictional startup company, featuring modern design elements, responsive layout, and smooth scrolling effects.',
-      image: '/images/startups.png',
-      tags: ['React', 'Next.js', 'Typescript', 'Sanity CMS'],
+      title: 'CarePulse',
+      description: 'A healthcare management system for modern clinics.',
+      image: '/images/carepulse.png',
+      tags: ['React', 'Next.js', 'Typescript', 'PostgreSQL'],
       category: 'Full Stack',
-      github: 'https://github.com/AliHameedAljabiry/startups',
-      demo: 'https://startups-msvp.vercel.app/'
+      github: 'https://github.com/AliHameedAljabiry/CarePulse',
+      demo: 'https://carepulse.alihameeddev.xyz'
     },
     {
       id: 4,
@@ -47,7 +47,7 @@ export default function Projects() {
       tags: ['React', 'TypeScript', 'Bootstrap'],
       category: 'Frontend',
       github: 'https://github.com/AliHameedAljabiry/Task-Manager',
-      demo: 'https://task-manager-1z5j.vercel.app/'
+      demo: 'https://taskmanager.alihameeddev.xyz'
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ export default function Projects() {
       tags: ['React', 'React Router', 'Typescript', 'Firebase'],
       category: 'Full Stack',
       github: 'https://github.com/AliHameedAljabiry/Van-life',
-      demo: 'https://van-life-seven-opal.vercel.app/'
+      demo: 'https://vanlife.alihameeddev.xyz'
     },
     {
       id: 6,

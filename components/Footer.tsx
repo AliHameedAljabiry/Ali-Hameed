@@ -25,7 +25,7 @@ function Footer() {
     <div className="footer p-4 sm:p-5 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200/20 dark:border-gray-700/20">
       <div className="container mx-auto text-center mt-4">
         <footer className="text-md text-black dark:text-white">
-          © 2024 Ali Hameed development. All rights reserved
+          © 2025 Ali Hameed development. All rights reserved
         </footer>
 
         <div className="contact mt-6">
