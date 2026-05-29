@@ -3,11 +3,6 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-// SVGs as file imports
-import githubIcon from "/public/images/github.svg";
-import gmailIcon from "/public/images/gmail.svg";
-import whatsappIcon from "/public/images/whatsapp.svg";
-import linkedinIcon from "/public/images/linkedin.svg";
 import Image from 'next/image';
 
 export default function Contact() {
@@ -81,10 +76,10 @@ export default function Contact() {
   const whatsappLink = `https://wa.me/${formattedPhoneNumber}?text=${message}`;
 
   const socialLinks = [
-    { icon: githubIcon, href: "https://github.com/AliHameedAljabiry", label: "GitHub" },
-    { icon: linkedinIcon, href: linkedinUrl, label: "LinkedIn" },
-    { icon: gmailIcon, href: gmailLink, label: "Email" },
-    { icon: whatsappIcon, href: whatsappLink, label: "WhatsApp" },
+    { icon: '/images/github.svg', href: "https://github.com/AliHameedAljabiry", label: "GitHub" },
+    { icon: '/images/linkedin.svg', href: linkedinUrl, label: "LinkedIn" },
+    { icon: '/images/gmail.svg', href: gmailLink, label: "Email" },
+    { icon: '/images/whatsapp.svg', href: whatsappLink, label: "WhatsApp" },
   ];
 
   return (
@@ -267,7 +262,7 @@ export default function Contact() {
                     className="p-4 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200/50 dark:border-gray-700/50"
                     aria-label={label}
                   >
-                    <Image src={icon} alt={label} className="w-7 h-7" />
+                    <Image src={icon} alt={label} width={28} height={28} className="w-7 h-7" />
                   </motion.a>
                 ))}
               </div>
