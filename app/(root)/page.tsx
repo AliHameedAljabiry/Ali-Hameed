@@ -98,7 +98,7 @@ export default function Home() {
 
           </motion.div>
 
-         
+         {/* update deployment */}
 
           {/* Scroll Indicator */}
           <motion.div 
