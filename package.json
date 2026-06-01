@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx @opennextjs/cloudflare build",
+    "build:next": "next build",
+    "build": "npx @opennextjs/cloudflare build",
     "start": "next start",
     "lint": "next lint",
     "pages:build": "npm run build",
-    "preview": "npm run build && wrangler pages dev .vercel/output/static"
+    "preview": "npx wrangler dev"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

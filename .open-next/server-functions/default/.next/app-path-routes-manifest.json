@@ -1,0 +1,8 @@
+{
+  "/(root)/about/page": "/about",
+  "/(root)/contact/page": "/contact",
+  "/(root)/page": "/",
+  "/(root)/projects/page": "/projects",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found"
+}
