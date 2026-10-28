@@ -49,14 +49,14 @@ export default function Home() {
               className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 dark:from-blue-400 dark:via-purple-400 dark:to-blue-300 bg-clip-text text-transparent leading-tight"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
-              Frontend Developer
+              Full-Stack Web Developer
             </motion.h1>
             
             <motion.p 
               className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed"
               variants={itemVariants}
             >
-              Crafting beautiful, interactive web experiences with modern technologies and creative design
+              Building complete web applications, from responsive Full-Stack interfaces to robust back-end systems with Java, Spring Boot, and MySQL.
             </motion.p>
           </motion.div>
 
@@ -66,7 +66,7 @@ export default function Home() {
               Ali Hameed
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 font-mono">
-              React • TypeScript • Next.js • Three.js • Python
+              React • TypeScript • Next.js • Spring Boot • MySQL • Tailwind CSS • UI/UX Design
             </p>
           </motion.div>
 

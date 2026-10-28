@@ -8,31 +8,29 @@ import Image from 'next/image';
 export default function About() {
   const skills = [
     { name: 'React & Next.js', level: 95, color: 'from-blue-500 to-cyan-500' },
-    { name: 'TypeScript', level: 90, color: 'from-purple-500 to-pink-500' },
-    { name: 'Tailwind CSS', level: 88, color: 'from-green-500 to-teal-500' },
-    { name: 'Three.js & WebGL', level: 75, color: 'from-orange-500 to-red-500' },
-    { name: 'Node.js', level: 20, color: 'from-indigo-500 to-purple-500' },
-    { name: 'UI/UX Design', level: 85, color: 'from-pink-500 to-rose-500' },
+    { name: 'TypeScript', level: 94, color: 'from-purple-500 to-pink-500' },
+    { name: 'Tailwind CSS', level: 97, color: 'from-green-500 to-teal-500' },
+    { name: 'UI/UX Design', level: 99, color: 'from-pink-500 to-rose-500' },
+    { name: 'Java', level: 98, color: 'from-orange-500 to-red-500' },
+    { name: 'Spring Boot', level: 90, color: 'from-indigo-500 to-purple-500' },
+    { name: 'MySQL', level: 95, color: 'from-purple-500 to-pink-500' },
     { name: 'Python', level: 70, color: 'from-blue-500 to-cyan-500' },
-    { name: 'PostgreSQL (Neon)', level: 80, color: 'from-purple-500 to-pink-500' },
   ];
 
   const experiences = [
-    {
-      role: 'Front-End Developer (Project Work)',
-      company: 'Self-directed',
-      period: '2023 – Present',
-      description: `
-        • Built multiple responsive applications using React.js and Next.js.
-        • Developed full-stack web applications with Next.js API routes, Neon PostgreSQL, and Drizzle ORM.
-        • Integrated Firebase for authentication and real-time features.
-        • Implemented ImageKit for file/image handling.
-        • Designed modern, mobile-first UIs with Tailwind CSS and shadcn/ui.
-        • Deployed projects on Vercel with CI/CD integration.
-      `,
-    },
-    
-  ];
+  {
+    role: 'Full-Stack Developer (Project Work)',
+    company: 'Self-directed',
+    period: '2023 – Present',
+    description: `
+      • Built multiple responsive applications using React.js and Next.js.
+      • Developed full-stack web applications with React, Next.js API routes, Spring Boot, and MySQL.
+      • Integrated Firebase for authentication and real-time features.
+      • Designed modern, mobile-first UIs with Tailwind CSS and shadcn/ui.
+      • Deployed projects on Netlify with CI/CD integration.
+    `,
+  },
+];
 
   const values = [
     { icon: Code, title: 'Clean Code', description: 'Writing maintainable, scalable, and well-documented code' },
@@ -55,8 +53,8 @@ export default function About() {
             About Me
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate frontend developer with over 4 years of experience creating digital experiences 
-            that users love. I specialize in React, TypeScript, and modern web technologies.
+            I'm a passionate Full-Stack web developer with over 5 years of experience 
+            Building complete web applications, from responsive Full-Stack interfaces to robust back-end systems with Java, Spring Boot, and MySQL.
           </p>
         </motion.div>
 
@@ -87,7 +85,7 @@ export default function About() {
                 Ali Hameed
               </h3>
               <p className="text-blue-600 dark:text-blue-400 text-center font-medium mb-4">
-                Frontend Web Developer
+                Full-Stack Web Developer
               </p>
               <p className="text-gray-600 dark:text-gray-400 text-center text-sm">
                 Based in Iraq
@@ -96,7 +94,7 @@ export default function About() {
               <div className="mt-6 space-y-3">
                 <div className="flex items-center space-x-3">
                   <Award className="w-5 h-5 text-blue-500" />
-                  <span className="text-sm text-gray-600 dark:text-gray-400">2+ Years Experience</span>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">5+ Years Experience</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <BookOpen className="w-5 h-5 text-blue-500" />
